@@ -3321,7 +3321,7 @@ height: 30px;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
-				content: '\f00d';
+				: '\f00d';
 				width: 3em;
 				height: 3em;
 				line-height: 3em;
@@ -3403,7 +3403,8 @@ height: 30px;
 			#banner input[type="button"]:hover,
 			#banner button:hover,
 			#banner .button:hover {
-				background-color: #676767;
+				background-color: #dbdbdb
+			;
 			}
 
 			#banner input[type="submit"]:active,
@@ -3445,7 +3446,7 @@ height: 30px;
 				#banner input[type="button"].alt.icon:before,
 				#banner button.alt.icon:before,
 				#banner .button.alt.icon:before {
-					color: #f8d1d2;
+					color: #dbdbdb;
 				}
 
 			#banner input[type="submit"].special,
